@@ -1,5 +1,11 @@
 '''
 Install python modules from ['.whl', '.zip', '.tar.gz'] files.
+
+We can treat this file as a command line or as a module to be imported(at least, you maybe need the `parser`
+to take the same command as him).
+
+For more explanation about the command line you can enter, feel free to see the README.md file or enter the
+following command on your terminal ```installer -h```
 '''
 import argparse
 from offline_pip import install_files
