@@ -11,7 +11,7 @@ installed on your machine.
 
 Type the code bellow (or copy/past) on your terminal.
 ```console
-$ git clone                         # clone this repo
+$ git clone git@github.com:RFihobiana/offline_pip_installer.git # clone this repo
 $ cd offline_pip_installer          # enter into downloaded repo
 $ pip install -r requirements.txt   # install required module
 ```
